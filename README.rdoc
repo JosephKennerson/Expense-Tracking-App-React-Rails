@@ -1,28 +1,18 @@
-== README
+# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Dev BootCamp New Technology Passion Project
 
-Things you may want to cover:
+Over a *72 hour period*, I spent time learning a new technology that was not taught at Dev BootCamp where I'm currently learning to be a web developer in San Francisco, CA. For our passion project we were told to pick a technology they did not teach us and learn as much as we could about it and make a small functional web app using that technology. The reason for this project is not to learn something that they have not taught us, it is to prove to them that we know how to learn and have the ability to teach ourselves. As a developer we will need to constantly learn new technologies and we will not have a teacher to walk us through it.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For this project I learned *React.js* and how to use it in *Rails* to build a simple expense tracking app.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+##To Get This Project Working In Development
+  1. On the right side of the screen, copy the html git link to this repo.
+  2. Use git in the command line to Clone the repo to a specific location of your choosing.
+  3. From the command line, navigate to the cloned repo's location.
+  4. Use Bundle install to download the necessary gems.
+  5. Create/Migrate/Seed database by typing the following command in your command line: rake db:create db:migrate db:seed
+  6. Use your text editor to open the cloned repo(ex: Sublime Text).
+  7. Run a local host server using Rails by typing in your command line: bin/rails s
+  8. In your web browser(ex: Chrome / Firefox), navigate to the following link: [Expense Tracking App](http://localhost:3000/records).
